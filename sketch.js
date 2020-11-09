@@ -18,7 +18,7 @@ function draw(){
     var 
     damage=0.5*weight*speed*speed/(thickness*thickness*thickness);
     if(damage>10){
-      wall.shapeColor=color"green";
+      wall.shapeColor=color"red";
     }
     if(damage<10){
       wall.shapeColor=color"green";
